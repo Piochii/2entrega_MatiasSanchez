@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img {
+  max-width: 0 auto;
+}
+
+img,
+svg {
+  vertical-align: middle;
+}
+
+.contenedor--header {
+  display: flex;
+  height: 70px;
+  background-color: #a2c4c9;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.titulo h1 {
+  background-color: #a2c4c9;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: "Moon Dance", cursive;
+}
+
+.titulo2 {
+  padding: 10px;
+  text-align: center;
+}
+.navbar ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 1rem;
+}
+
+.parraf {
+  text-align: center;
+}
+
+.contenedor1 {
+  float: left;
+  padding: 50px;
+  width: 500px;
+  height: 500px;
+}
+.img_left {
+  float: left;
+  width: 60%;
+  height: 60%;
+}
+.contenedor2 {
+  float: right;
+  padding: 50px;
+  width: 500px;
+  height: 500px;
+}
+
+.img_rigth {
+  float: right;
+  width: 50%;
+  height: 50%;
+}
+.nav__list {
+  display: inline;
+  padding: 0;
+  background: white;
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  justify-content: LEFT;
+}
+
+.navlink {
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.nav__item {
+  display: inline;
+  text-align: center;
+  margin: 0 0 0 1.5rem;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+.imagenes_prod {
+  border-radius: 30%;
+  border-style: dotted;
+}
+.footer {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.footer-sm__icons {
+  background-color: #a2c4c9;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  /* padding: -7em 0; */
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
