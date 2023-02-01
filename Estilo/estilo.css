@@ -1,8 +1,11 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+.menu {
+  background: #a2c4c9;
 }
 
 img {
@@ -14,20 +17,12 @@ svg {
   vertical-align: middle;
 }
 
-.contenedor--header {
-  display: flex;
-  height: 70px;
-  background-color: #a2c4c9;
-  justify-content: space-between;
-  align-items: center;
-}
 
-.titulo h1 {
+
+.titulo-h1 {
   -webkit-animation: focus-in-expand 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) alternate both;
 	        animation: focus-in-expand 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) alternate both;
-  background-color: #a2c4c9;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  
   font-family: "Moon Dance", cursive;
 }
 @-webkit-keyframes focus-in-expand {
@@ -62,6 +57,10 @@ svg {
   padding: 10px;
   text-align: center;
 }
+
+.intro-section {
+background-color: #a2c4c9;
+}
 .navbar ul li {
   list-style: none;
   display: inline-block;
@@ -71,6 +70,7 @@ svg {
 .parraf {
   text-align: center;
 }
+
 
 .contenedor1 {
   float: left;
@@ -105,8 +105,10 @@ svg {
   justify-content: LEFT;
 }
 
+
+
 .navlink {
-  color: white;
+  color: rgba(4, 62, 77, 0.24);
   text-transform: uppercase;
   text-decoration: none;
 }
@@ -130,18 +132,12 @@ svg {
   border-radius: 30%;
   border-style: dotted;
 }
-.footer {
-  margin: 0 auto;
-  width: 100%;
+
+.footer-sm {
+  background-color: #212121;
 }
 
-.footer-sm__icons {
-  background-color: #a2c4c9;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-  /* padding: -7em 0; */
-  text-align: center;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
+.footer-sm a i {
+  font-size: 1rem;
 }
+
