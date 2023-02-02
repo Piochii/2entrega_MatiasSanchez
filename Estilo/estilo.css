@@ -24,6 +24,8 @@ article {
   border: 1px solid black;
   border-radius: 1rem;
   padding: 2rem;
+  margin: 2%;
+  
 }
 
 article img {
@@ -89,7 +91,6 @@ article button {
 
 
 
-
 .nav__list {
   display: inline;
   padding: 0;
@@ -114,19 +115,24 @@ article button {
   margin: 0 0 0 1.5rem;
 }
 
-.row {
-  display: flex;
+.col img {
+    animation: fadeIn 3s ease;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      filter: blur(20px);
+    }
+  
+    10% {
+      opacity: 1;
+      filter: brightness(2) blur(10px);
+    }
+  }
+  
 }
 
-.column {
-  flex: 33.33%;
-  padding: 5px;
-}
-
-.imagenes_prod {
-  border-radius: 30%;
-  border-style: dotted;
-}
 
 .footer-sm {
   background-color: #212121;
