@@ -2,19 +2,44 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-
-
 .menu {
   background: #a2c4c9;
 }
 
-img {
-  max-width: 0 auto;
+body {
+  padding: 1rem;
 }
 
-img,
-svg {
-  vertical-align: middle;
+section {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+article {
+  display: flex;
+  flex: 0 1 300px;
+  flex-direction: column;
+  border: 1px solid black;
+  border-radius: 1rem;
+  padding: 2rem;
+}
+
+article img {
+  order: -1;
+  align-self: center;
+  width: 20rem;
+}
+
+article button {
+  background: black;
+  color: white;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 1rem;
+  font-size: 1.2rem;
+  cursor: pointer;
 }
 
 
@@ -53,48 +78,18 @@ svg {
 }
 
 
-.titulo2 {
-  padding: 10px;
-  text-align: center;
-}
 
-.intro-section {
-background-color: #a2c4c9;
-}
+
+
 .navbar ul li {
   list-style: none;
   display: inline-block;
   padding: 1rem;
 }
 
-.parraf {
-  text-align: center;
-}
 
 
-.contenedor1 {
-  float: left;
-  padding: 50px;
-  width: 500px;
-  height: 500px;
-}
-.img_left {
-  float: left;
-  width: 60%;
-  height: 60%;
-}
-.contenedor2 {
-  float: right;
-  padding: 50px;
-  width: 500px;
-  height: 500px;
-}
 
-.img_rigth {
-  float: right;
-  width: 50%;
-  height: 50%;
-}
 .nav__list {
   display: inline;
   padding: 0;
@@ -136,6 +131,7 @@ background-color: #a2c4c9;
 .footer-sm {
   background-color: #212121;
 }
+
 
 .footer-sm a i {
   font-size: 1rem;
