@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Piochii/2entrega_MatiasSanchez/issues"
   },
-  "homepage": "https://github.com/Piochii/2entrega_MatiasSanchez#readme"
+  "homepage": "https://github.com/Piochii/2entrega_MatiasSanchez#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.3"
+  }
 }
