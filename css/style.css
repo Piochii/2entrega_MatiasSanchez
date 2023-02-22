@@ -26,14 +26,12 @@ article {
   padding: 2rem;
   margin: 2%;
 }
-
 article img {
   order: -1;
   align-self: center;
   width: 20rem;
 }
-
-article button {
+article img button {
   background: black;
   color: white;
   padding: 0.5rem;

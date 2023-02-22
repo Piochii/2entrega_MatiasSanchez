@@ -1,6 +1,5 @@
-    * {
-        font-family:Verdana, Geneva, Tahoma, sans-serif
-    }
+    @import "resets";
+
     
     .menu {
       background: #a2c4c9;
@@ -25,27 +24,28 @@
       border-radius: 1rem;
       padding: 2rem;
       margin: 2%;
-      
-    }
-    
-    article img {
-      order: -1;
+     
+      img {
+        order: -1;
       align-self: center;
       width: 20rem;
+
+      button {
+        background: black;
+       color: white;
+       padding: 0.5rem;
+       border: none;
+       border-radius: 1rem;
+       font-size: 1.2rem;
+       cursor: pointer;
+
+      }
+      }
     }
     
-    article button {
-      background: black;
-      color: white;
-      padding: 0.5rem;
-      border: none;
-      border-radius: 1rem;
-      font-size: 1.2rem;
-      cursor: pointer;
-    }
-    
-    
-    
+     
+     
+       
     .titulo-h1 {
       -webkit-animation: focus-in-expand 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) alternate both;
                 animation: focus-in-expand 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) alternate both;
