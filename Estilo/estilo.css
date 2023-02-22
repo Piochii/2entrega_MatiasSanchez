@@ -115,7 +115,10 @@ article button {
   margin: 0 0 0 1.5rem;
 }
 
-.col img {
+.cardservis {
+  padding: 1%;
+}
+.card img {
     animation: fadeIn 3s ease;
   }
   
