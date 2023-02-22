@@ -1,12 +1,14 @@
-    @import "resets";
+@import "variables";
+@import "resets";
+ 
 
     
     .menu {
-      background: #a2c4c9;
+      background: $menu-color;
     }
     
     body {
-      padding: 1rem;
+      padding: $margim-body;
     }
     
     section {
