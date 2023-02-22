@@ -1,0 +1,149 @@
+    * {
+        font-family:Verdana, Geneva, Tahoma, sans-serif
+    }
+    
+    .menu {
+      background: #a2c4c9;
+    }
+    
+    body {
+      padding: 1rem;
+    }
+    
+    section {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+    
+    article {
+      display: flex;
+      flex: 0 1 300px;
+      flex-direction: column;
+      border: 1px solid black;
+      border-radius: 1rem;
+      padding: 2rem;
+      margin: 2%;
+      
+    }
+    
+    article img {
+      order: -1;
+      align-self: center;
+      width: 20rem;
+    }
+    
+    article button {
+      background: black;
+      color: white;
+      padding: 0.5rem;
+      border: none;
+      border-radius: 1rem;
+      font-size: 1.2rem;
+      cursor: pointer;
+    }
+    
+    
+    
+    .titulo-h1 {
+      -webkit-animation: focus-in-expand 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) alternate both;
+                animation: focus-in-expand 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) alternate both;
+      
+      font-family: "Moon Dance", cursive;
+    }
+    @-webkit-keyframes focus-in-expand {
+      0% {
+        letter-spacing: -0.5em;
+        -webkit-filter: blur(12px);
+                filter: blur(12px);
+        opacity: 0;
+      }
+      100% {
+        -webkit-filter: blur(0px);
+                filter: blur(0px);
+        opacity: 1;
+      }
+    }
+    @keyframes focus-in-expand {
+      0% {
+        letter-spacing: -0.5em;
+        -webkit-filter: blur(12px);
+                filter: blur(12px);
+        opacity: 0;
+      }
+      100% {
+        -webkit-filter: blur(0px);
+                filter: blur(0px);
+        opacity: 1;
+      }
+    }
+    
+    
+    
+    
+    
+    .navbar ul li {
+      list-style: none;
+      display: inline-block;
+      padding: 1rem;
+    }
+    
+    
+    
+    .nav__list {
+      display: inline;
+      padding: 0;
+      background: white;
+      width: 90%;
+      max-width: 1000px;
+      margin: auto;
+      justify-content: LEFT;
+    }
+    
+    
+    
+    .navlink {
+      color: rgba(4, 62, 77, 0.24);
+      text-transform: uppercase;
+      text-decoration: none;
+    }
+    
+    .nav__item {
+      display: inline;
+      text-align: center;
+      margin: 0 0 0 1.5rem;
+    }
+    
+    .cardservis {
+      padding: 1%;
+    }
+    .card img {
+        animation: fadeIn 3s ease;
+      }
+      
+      @keyframes fadeIn {
+        0% {
+          opacity: 0;
+          filter: blur(20px);
+        }
+      
+        10% {
+          opacity: 1;
+          filter: brightness(2) blur(10px);
+        }
+      }
+      
+    
+    
+    
+    .footer-sm {
+      background-color: #212121;
+    }
+    
+    
+    .footer-sm a i {
+      font-size: 1rem;
+    }
+    
+    

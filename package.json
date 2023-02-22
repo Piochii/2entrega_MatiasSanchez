@@ -1,0 +1,20 @@
+{
+  "name": "tp1-entrega",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "sass --watch scss:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Piochii/2entrega_MatiasSanchez.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Piochii/2entrega_MatiasSanchez/issues"
+  },
+  "homepage": "https://github.com/Piochii/2entrega_MatiasSanchez#readme"
+}
