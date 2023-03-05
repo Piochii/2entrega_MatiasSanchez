@@ -1,6 +1,6 @@
 @import "variables";
 @import "resets";
- 
+@import "cards" ;
 
     
     .menu {
@@ -18,6 +18,8 @@
       flex-wrap: wrap;
     }
     
+    
+
     article {
       display: flex;
       flex: 0 1 300px;
@@ -117,7 +119,7 @@
     }
     
     .cardservis {
-      padding: 1%;
+      padding: 3%;
     }
     .card img {
         animation: fadeIn 3s ease;

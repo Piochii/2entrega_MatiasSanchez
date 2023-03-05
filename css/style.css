@@ -2,6 +2,16 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.card {
+  margin: 1rem;
+}
+.card h3 {
+  background-color: aquamarine;
+}
+.card h4 {
+  background-color: rgba(132, 241, 241, 0.7450980392);
+}
+
 .menu {
   background: #a2c4c9;
 }
@@ -102,7 +112,7 @@ article img button {
 }
 
 .cardservis {
-  padding: 1%;
+  padding: 3%;
 }
 
 .card img {
